@@ -5,9 +5,22 @@
     font-style: normal;
     line-height: 28px;
     margin-right: 18px;
+    max-width: 30px;
+    min-height: 28px;
+    text-align: right;
 }
 
 .header__lang-link:last-child {
   text-decoration: none;
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    max-width: 22px;
+    min-height: 20px;
+    overflow: visible;
+  }
 }
