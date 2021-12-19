@@ -7,6 +7,7 @@
   line-height: 1.12;
   margin-right: 18px;
   transition: opacity .3s;
+  text-align: left;
 }
 
 .footer__link:last-of-type {
