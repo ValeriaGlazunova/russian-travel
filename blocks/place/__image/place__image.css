@@ -3,4 +3,29 @@
    grid-row-end: 4;
    width: 460px;
    height: 460px;
+   align-self: start;
  }
+
+ @media screen and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+ }
+
+ @media screen and (max-width: 927px) {
+ .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 32px;
+    order: 3;
+    align-self: center;
+  }
+}
