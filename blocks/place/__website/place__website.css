@@ -3,10 +3,10 @@
   margin: 0 0 48px;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 750px) {
   .place__website {
     margin: 0 auto 32px;
-    width: 90%;
+    width: 320px;
     order: 2;
   }
 }

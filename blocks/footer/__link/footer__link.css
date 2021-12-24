@@ -5,20 +5,15 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.12;
-  margin-right: 18px;
   transition: opacity .3s;
   text-align: left;
-}
-
-.footer__link:last-of-type {
-  margin: 0;
 }
 
 .footer__link:hover {
   opacity: .8;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 750px) {
   .footer__link {
     line-height: 1;
     font-size: 24px;

@@ -13,14 +13,14 @@
   }
  }
 
- @media screen and (max-width: 927px) {
+ @media screen and (max-width: 1000px) {
  .place__image {
     width: 340px;
     height: 340px;
   }
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 750px) {
   .place__image {
     width: 320px;
     height: 320px;

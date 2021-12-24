@@ -2,12 +2,10 @@
   margin: 0 auto;
   max-width: 984px;
   min-width: 320px;
-  min-height: 2808px;
-  max-height: 5177px;
 }
 
 @media screen and (max-width: 1024px) {
- .places {
-  max-width: 928px;
+  .places {
+    max-width: 928px;
   }
 }

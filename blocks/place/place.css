@@ -1,7 +1,6 @@
 .place {
   display: grid;
   width: 100%;
-  min-height: 584px;
   grid-template-columns: 460px 484px;
   grid-template-rows: fit-content(200px) fit-content(348px) 1fr;
   column-gap: 40px;
@@ -22,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 1000px) {
   .place {
     min-height: 434px;
     grid-template-columns: 340px 352px;
@@ -35,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 750px) {
   .place {
     min-height: 964px;
     display: flex;
