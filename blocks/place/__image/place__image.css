@@ -24,7 +24,7 @@
   .place__image {
     width: 320px;
     height: 320px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
     order: 3;
     align-self: center;
   }

@@ -6,4 +6,11 @@
   padding: 0;
   margin: 0;
   min-width: 77px;
+  align-self: center;
+}
+
+@media screen and (max-width: 425px) {
+  .header__links {
+    min-width: 62px;
+  }
 }

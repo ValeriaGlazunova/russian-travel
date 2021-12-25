@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    min-height: 564px;
     grid-template-columns: 440px 456px;
     grid-template-rows: fit-content(200px) fit-content(377px) 1fr;
     column-gap: 32px;
@@ -23,11 +22,10 @@
 
 @media screen and (max-width: 1000px) {
   .place {
-    min-height: 434px;
     grid-template-columns: 340px 352px;
     grid-template-rows: fit-content(140px) fit-content(390px) 1fr;
     column-gap: 28px;
-    margin-bottom: 73px;
+    margin-bottom: 71px;
   }
   .place:last-child {
     margin-bottom: 90px;
@@ -36,7 +34,6 @@
 
 @media screen and (max-width: 750px) {
   .place {
-    min-height: 964px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
